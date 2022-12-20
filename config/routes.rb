@@ -1,8 +1,14 @@
 Rails.application.routes.draw do
   resources :tweets
-  get 'welcome/index'
+
+ # get 'tweets/index'
+#end
+
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
-   root "welcome#index"
+
+   root "tweets#index"
 end
+
+
